@@ -39,8 +39,8 @@ body, html {
     <div class="w3-right w3-hide-small">
       <a href="../#about" class="w3-bar-item w3-button">About</a>
       <a href="./" class="w3-bar-item w3-button"><i class="fa fa-folder"></i> Labs</a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="w3-bar-item w3-button"><i class="fa fa-camera"></i>Videos</a>
-      <a href="https://github.com/rss2025-8" class="w3-bar-item w3-button"><i class="fa fa-github-square"></i>Github</a>
+      <a href="https://www.youtube.com/playlist?list=PLMhnlK6gpgE-zAFnQTbNpU6LHh_YdjfDP" class="w3-bar-item w3-button"><i class="fa fa-camera"></i> Videos</a>
+      <a href="https://github.com/rss2025-8" class="w3-bar-item w3-button"><i class="fa fa-github-square"></i> Github</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -56,13 +56,13 @@ body, html {
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close X</a>
   <a href="../#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
   <a href="./" onclick="w3_close()" class="w3-bar-item w3-button">Labs</a>
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" onclick="w3_close()" class="w3-bar-item w3-button">Videos</a>
+  <a href="https://www.youtube.com/playlist?list=PLMhnlK6gpgE-zAFnQTbNpU6LHh_YdjfDP" onclick="w3_close()" class="w3-bar-item w3-button">Videos</a>
   <a href="https://github.com/mit-rss" onclick="w3_close()" class="w3-bar-item w3-button">Github</a>
 </nav>
 
 <header class="title_img w3-display-container w3-grayscale-min">
   <div class="w3-display-bottommiddle w3-text-white w3-center">
-    <h1 class="w3-center" style="font-weight:bold">LAB WORK</h1> </br>
+    <h1 class="w3-center" style="font-weight:bold">Lab Work</h1> </br>
     <p class="w3-center" style="font-weight:bold">What we've done for Robotics: Science and Systems</p>
   </div>
 </header>
@@ -87,11 +87,11 @@ body, html {
     <div class="w3-col l6 m6 w3-margin-bottom" style="margin-top:16px;max-width:50%">
       <div class="w3-card w3-center" style="min-height:600px">
         </br>
-        <img src="img/wall_follower.png" alt="Survival" style="width:95%" onclick="onClick(this)" class="w3-hover-opacity">
+        <a href="3"><img src="img/wall_follower.gif" alt="Wall Follower" style="width:95%" class="w3-hover-opacity"></a>
         <div class="w3-container" style="margin-top:auto">
-          <h3><a href="wall_follower">Lab 3: Wall-Following on the Racecar</h3>
+          <h3><a href="3">Lab 3: Wall Following</h3>
           <p>Safety controller and wall follower, implemented/evaluated on the racecar.</p>
-          <p><a href="wall_follower"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
+          <p><a href="3"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
         </div>
       </div>
     </div>
@@ -99,11 +99,11 @@ body, html {
     <div class="w3-col l6 m6 w3-margin-bottom" style="margin-top:16px;max-width:50%">
       <div class="w3-card w3-center" style="min-height:600px">
         </br>
-        <img src="img/visual_servoing.gif" alt="Survival" style="width:95%" onclick="onClick(this)" class="w3-hover-opacity">
+        <a href="4"><img src="img/visual_servoing.gif" alt="Visual Servoing" style="width:94.5%" class="w3-hover-opacity"></a>
         <div class="w3-container" style="margin-top:auto">
-          <h3><a href="visual_servoing">Lab 4: Visual Servoing</h3>
-          <p>Cone parking and line follower, implemented/evaluated on the racecar.</p>
-          <p><a href="visual_servoing"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
+          <h3><a href="4">Lab 4: Visual Servoing</h3>
+          <p>Object detection, parking controller, and line follower on the racecar.</p>
+          <p><a href="4"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
         </div>
       </div>
     </div>
@@ -111,11 +111,11 @@ body, html {
     <div class="w3-col l6 m6 w3-margin-bottom" style="margin-top:16px;max-width:50%">
       <div class="w3-card w3-center" style="min-height:600px">
         </br>
-        <img src="img/mcl.gif" alt="MCL" style="width:95%" onclick="onClick(this)" class="w3-hover-opacity">
+        <a href="5"><img src="img/mcl.gif" alt="Monte Carlo Localization" style="width:95%" class="w3-hover-opacity"></a>
         <div class="w3-container" style="margin-top:auto">
-          <h3><a href="localization">Lab 5: Monte Carlo Localization</h3>
-          <p>Cone parking and line follower, implemented/evaluated on the racecar.</p>
-          <p><a href="localization"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
+          <h3><a href="5">Lab 5: Monte Carlo Localization</h3>
+          <p>Fast, accurate localization on the racecar.</p>
+          <p><a href="5"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
         </div>
       </div>
     </div>
@@ -123,11 +123,23 @@ body, html {
     <div class="w3-col l6 m6 w3-margin-bottom" style="margin-top:16px;max-width:50%">
       <div class="w3-card w3-center" style="min-height:600px">
         </br>
-        <img src="img/path_planning.gif" alt="Path Planning" style="width:95%" onclick="onClick(this)" class="w3-hover-opacity">
+        <a href="6"><img src="img/path_planning.gif" alt="Path Planning" style="width:78.5%" class="w3-hover-opacity"></a>
         <div class="w3-container" style="margin-top:auto">
-          <h3><a href="path_planning/">Lab 6: Path Planning</h3>
-          <p>Path planning and following, implemented on the racecar.</p>
-          <p><a href="path_planning/"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
+          <h3><a href="6">Lab 6: Path Planning</h3>
+          <p>Path planning and following with pure pursuit on the racecar.</p>
+          <p><a href="6"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Final Challenge Lab -->
+    <div class="w3-col l12 m6 w3-margin-bottom" style="margin-top:16px;max-width:100%">
+      <div class="w3-card w3-center" style="min-height:600px">
+        </br>
+        <a href="final_challenge"><img src="img/charles.jpg" alt="Final Challenge" style="width:40%" class="w3-hover-opacity"></a>
+        <div class="w3-container" style="margin-top:auto">
+          <h3><a href="final_challenge">Final Challenge</h3>
+          <p>A shrink ray heist and a race to the moon, implemented on the racecar.</p>
+          <p><a href="final_challenge"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-info-circle"></i> More info</button></a></p>
         </div>
       </div>
     </div>
